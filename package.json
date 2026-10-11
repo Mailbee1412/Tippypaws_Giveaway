@@ -1,0 +1,15 @@
+{
+  "name": "gift-bot",
+  "version": "1.0.0",
+  "description": "Discord giveaway bot: react with an emoji to enter, winners drawn per configured prize at a set date/time.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  }
+}
